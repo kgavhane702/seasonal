@@ -276,9 +276,9 @@ seas <- function(x, xreg = NULL, xtrans = NULL,
     stop("'x' argument is not a time series.")
   }
   
-  if (start(x)[1] <= 1000){
-    stop("start year of 'x' must be > 999.")
-  }
+ # if (start(x)[1] <= 1000){
+ #   stop("start year of 'x' must be > 999.")
+ # }
 
 
   # na action
